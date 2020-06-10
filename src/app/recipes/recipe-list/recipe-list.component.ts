@@ -12,6 +12,11 @@ export class RecipeListComponent implements OnInit {
       'Big Kahuna Burger',
       'That IS a tasty burger!',
       'https://upload.wikimedia.org/wikipedia/commons/e/eb/Pineapple_bacon_cheeseburger.jpg'
+    ),
+    new Recipe(
+      'Strawberry Rhubarb Pie',
+      'Best Pie You\'ll ever taste!',
+      'https://upload.wikimedia.org/wikipedia/commons/1/1e/Strawberry-rhubarb_pie_with_pastry_lattice%2C_May_2008.jpg'
     )
   ];
   constructor() { }
